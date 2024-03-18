@@ -1,0 +1,11 @@
+@ImpoTrack.Server_HostAddress = http://localhost:5002
+
+GET {{ImpoTrack.Server_HostAddress}}/contribuyentes/
+Accept: application/json
+
+###
+
+GET {{ImpoTrack.Server_HostAddress}}/comprobantes/
+Accept: application/json
+
+###
