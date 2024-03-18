@@ -10,10 +10,10 @@ ImpoTrack is a web application built with ASP.NET and React. It provides an inte
 
 ## Technologies
 
-- Backend: ASP.NET
-- Frontend: React
-- Database: MySQL
-- Testing: xUnit for .NET and Vitest for React
+- Backend: [ASP.NET](https://dotnet.microsoft.com/apps/aspnet)
+- Frontend: [React](https://reactjs.org/)
+- Database: [MySQL](https://www.mysql.com/)
+- Testing: [xUnit for .NET](https://xunit.net/) and [Vitest for React](https://vitest.dev/)
 
 ## Getting Started
 
@@ -37,19 +37,19 @@ git clone https://github.com/xdeleon04/impotrack.git
 2.  Navigate to the project directory
 
 ```bash
-    cd impotrack
+cd impotrack
 ```
 
 3.  Restore the .NET packages
 
 ```bash
-    dotnet restore
+dotnet restore
 ```
 
 4.  Install the Node.js dependencies
 
 ```bash
-    cd client && npm install
+cd client && npm install
 ```
 
 ### Configuration
@@ -70,10 +70,9 @@ For development, you can set the connection string in the `secrets.json` file as
     
 
 ```JSON
-    {
-        "ConnectionStrings:DefaultConnection":
-            "Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;"
-    }
+{
+"ConnectionStrings:DefaultConnection":"Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword;"
+}
 ```
 
 Replace `myServerAddress`, `myDataBase`, `myUsername`, and `myPassword` with your MySQL server address, database name, username, and password, respectively.
@@ -101,14 +100,11 @@ Then, navigate to `http://localhost:8000` in your web browser.
 
 Unit tests can be run using the .NET CLI and Vitest with the following command:
 
-`dotnet test`  
-`npx vitest run`
-
-## Built With
-
-- [ASP.NET](https://dotnet.microsoft.com/apps/aspnet) - The web framework used
-- [React](https://reactjs.org/) - The frontend library used
+```bash
+dotnet test
+npx vitest run
+```
 
 ### License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details.
