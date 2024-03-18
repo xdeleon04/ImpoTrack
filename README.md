@@ -98,7 +98,7 @@ Then, navigate to `http://localhost:8000` in your web browser.
 
 ## Testing
 
-Unit tests can be run using the .NET CLI and Vitest with the following command:
+Unit tests can be run using the .NET CLI and Vitest with the following commands:
 
 ```bash
 dotnet test
